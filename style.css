@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.container-cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+}
+.card1{
+	border-radius: 10px 0 0 10px;
+	background-color: hsl(31, 77%, 52%);
+	width: 300px;
+	height:500px;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+.card2{
+	background-color:hsl(184, 100%, 22%);
+	width: 300px;
+	height:500px;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+.card3{
+	border-radius: 0 10px 10px 0;
+	background-color:  hsl(179, 100%, 13%);
+	width: 300px;
+	height:500px;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+/* titulo principal */
+
+h1{
+	padding-bottom: 20px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+/* Paragrafo principal */
+
+p{
+	margin-bottom: 100px;
+	line-height: 25px;
+	color: white;
+}
+img{
+	margin-bottom: 30px;
+}
+.botao{
+
+	border-radius: 30px;
+	height: 45px;
+	width: 145px;
+	background-color: white;
+}
+.botao h1{
+	padding-left: 28px;
+	padding-top: 13px;
+	font-size: 15px;
+	font-family: 'Lexend deca';
+	color:  hsl(31, 77%, 52%);
+}
+
+.card2 .botao h1{
+	padding-left: 28px;
+	padding-top: 13px;
+	font-size: 15px;
+	font-family: 'Lexend deca';
+	color: hsl(184, 100%, 22%);
+}
+
+.card3 .botao h1{
+	padding-left: 28px;
+	padding-top: 13px;
+	font-size: 15px;
+	font-family: 'Lexend deca';
+	color: hsl(179, 100%, 13%);
+}
